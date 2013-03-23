@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+	
+<head>
+
+	<title>Coffeescript Testing</title>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	<script src="cupof.js" type="text/javascript"></script>
+	
+	<style type="text/css">
+	
+		body {
+			
+			padding: 5em;
+			font: 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+			background-color: #c0ff33;
+			
+		}
+		
+		#buttonOne, #buttonTwo, #buttonThree, #buttonFour, #buttonFive {
+			
+			background-color: #000;
+			color: #fff;
+			padding: 7px;
+			display: inline-block;
+			cursor: move;
+			border: none;
+			
+		}
+		
+		h1 {
+			
+			text-shadow: #fff 1px 1px 0;
+			
+		}
+		
+		#targetOne, #targetTwo, #targetThree, #targetFour, #targetFive {
+			
+			margin-top: 2em;
+			display: inline-block;
+			padding-left: 2em
+			
+		}
+		
+		#numberOne, #numberTwo, #word, #wordTwo, #wordThree {
+			
+			padding: 1em;
+			margin-bottom: 1em;
+			display: inline-block;
+			
+		}
+	
+	</style>
+	
+</head>
+
+	<body>
+
+	
+		<h1>Clicking</h1>
+		
+			<div id="buttonOne">Click me</div>
+			<div id="targetOne"></div>
+
+
+		<h1 style="margin-top: 3em;">Counting</h1>
+		
+			<div id="numberOne">23</div>
+			<div id="numberTwo">54</div>
+
+			<div id="buttonTwo">Click to let me count</div>
+			
+			<div id="targetTwo"></div>
+
+
+		<h1 style="margin-top: 2em;">Word</h1>
+
+			<div id="word">Apple</div>
+			<div id="buttonThree">Does it say 'Apple'?</div>
+
+			<div id="targetThree"></div>
+
+
+		<h1 style="margin-top: 2em;">Fruits</h1>
+
+			<div id="wordTwo">Banana</div>
+			<div id="buttonFour">Is this a fruit?</div>
+
+			<div id="targetFour"></div>
+
+
+		<h1 style="margin-top: 2em;">City's</h1>
+
+			<div id="wordThree">Dordrecht</div>
+			<div id="buttonFive">What do I do in this city?</div>
+
+			<div id="targetFive"></div>
+	
+	</body>
+	
+</html>
