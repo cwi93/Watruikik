@@ -1,5 +1,6 @@
 $(document).ready ->
 	#ik ben nu aan het editten *Chi-Wai
+	#//////////test////////////
 
 	
 	# Function for clicking
